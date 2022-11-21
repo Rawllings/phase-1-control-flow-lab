@@ -12,14 +12,23 @@ function scuberGreetingForFeet(distance){
     return 'No can do.';
   }
 }
-let city ; 
+
+
+
+// Ternary assignment 
+
 
 function ternaryCheckCity(city) {
   // Write your code here!
-const ternaryCheckCity = city  ?  "Ok, sounds good." : "No go.";
-return ternaryCheckCity;
+return (city === "NYC"  ?  ("Ok, sounds good.") : ("No go."));
 }
 
+
+
+
+
+
+// switch assignment  
 
 const tip = "generous";
 
